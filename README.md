@@ -49,17 +49,17 @@ User-defined function for the source term in the heat equation.
 
 ### Example Usage
 
-# Set parameters
+#### Set parameters
 N = 11
 xl, xr = 0, 1
 T0, Tf = 0, 0
 dt = 1/551
 
-# Initialize nodes and initial condition
+#### Initialize nodes and initial condition
 nodes = np.linspace(xl, xr, N)
 u0 = np.sin(np.pi * nodes)
 
-# Time-stepping
+#### Time-stepping
 nt = int((Tf - T0) / dt)
 u_curr = u0
 
@@ -90,16 +90,16 @@ Solves the heat equation using backward Euler time-stepping.
 
 ### Example Usage
 
-# Set parameters
+#### Set parameters
 N = 11
 xl, xr = 0, 1
 T0, Tf = 0, 0
 dt = 1/551
 
-# Initialize nodes and initial condition
+#### Initialize nodes and initial condition
 nodes = np.linspace(xl, xr, N)
 u0 = np.sin(np.pi * nodes)
 
-# Time-stepping with backward Euler
+#### Time-stepping with backward Euler
 nt = int((Tf - T0) / dt)
 u_curr = u0
