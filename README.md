@@ -89,6 +89,13 @@ u0 = np.sin(np.pi * nodes)
 nt = int((Tf - T0) / dt)
 u_curr = u0
 
+### Free Response Answers & Plots
+
+1. **Question 1:** Increase the time-step until you find the instability, what dt does this occur at?
+   *The staibility increases as dt increases and decreases as dt decreases, with this code I tried up to 1/24000000 for dt and I still didnt see much difference.*
+
+2. **Question 2:** How does the solution change as N decreases?
+   *The plot gets more round the higher the N count. A way to think about it is that a square has 4 sides and is blocky, but a dodecahedron has 12 sides and looks more round.*
 
 ## Proj1_pt2.py
 
