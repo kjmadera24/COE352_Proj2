@@ -20,7 +20,7 @@ The analytic solution to this problem is
 \[ u(x, t) = e^{-t}\sin(\pi x) \]
 
 ## Table Of Contents
-- [Forward Euler Code](#Proj1_pt1.py)
+- [Forward Euler Code](#proj1-pt1py)
   - [Description](#description)
   - [Usage](#usage)
   - [Functions](#functions)
