@@ -19,7 +19,7 @@ The analytic solution to this problem is
 
 \[ u(x, t) = e^{-t}\sin(\pi x) \]
 
-- [Proj1_pt1.py](#proj1-pt1py)
+- [Proj1_pt1.py](#proj1_pt1.py)
   - [Description](#description)
   - [Usage](#usage)
   - [Functions](#functions)
