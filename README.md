@@ -1,21 +1,23 @@
 # COE352_Proj2
 This repository is for my COE352 project, which involves solving the heat equation using the finite element method with forward and backward Euler time-stepping.  
 
-The heat transfer problem
+# Heat Transfer Problem
+
+The heat transfer problem is described by the partial differential equation:
 
 \[ u_t - u_{xx} = f(x, t), \quad (x, t) \in (0, 1) \times (0, 1) \]
 
-With initial and Dirichlet boundary conditions
+with initial and Dirichlet boundary conditions:
 
-\[ u(x, 0) = \sin(\pi x), \]
+\[ u(x, 0) = \sin(\pi x) \]
 
 \[ u(0, t) = u(1, t) = 0 \]
 
-and function
+where the function \( f(x, t) \) is defined as:
 
 \[ f(x, t) = (\pi^2 - 1)e^{-t}\sin(\pi x) \]
 
-The analytic solution to this problem is
+The analytic solution to this problem is given by:
 
 \[ u(x, t) = e^{-t}\sin(\pi x) \]
 
