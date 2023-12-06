@@ -19,7 +19,8 @@ The analytic solution to this problem is
 
 \[ u(x, t) = e^{-t}\sin(\pi x) \]
 
-- [Proj1_pt1.py](#proj1_pt1.py)
+## Table Of Contents
+- [Forward Euler Code](#Proj1_pt1.py)
   - [Description](#description)
   - [Usage](#usage)
   - [Functions](#functions)
@@ -29,7 +30,7 @@ The analytic solution to this problem is
     - [`HeatEq_Frwd(F, K, M, dt, u)`](#heateq_frwdF-k-m-dt-u)
     - [`user_func(xi, dt)`](#user_funcxi-dt)
   - [Example Usage](#example-usage)
-- [Proj1_pt2.py](#proj1-pt2py)
+- [Backward Euler Code](#Proj1_pt2.py)
   - [Description](#description-1)
   - [Usage](#usage-1)
   - [Functions](#functions-1)
