@@ -33,6 +33,10 @@ The analytic solution to this problem is given by:
 
 ## Proj1_pt1.py
 
+![Hand-written Weak Form](https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/File_000%20(4).png)
+
+## Proj1_pt2.py
+
 ### Description
 This script implements a forward Euler time-stepping solution for the 1D heat equation using finite element methods. It utilizes Lagrange basis functions and performs numerical integration to assemble global matrices for the stiffness, mass, and load. The solution is then obtained by solving the heat equation with forward Euler.
 
