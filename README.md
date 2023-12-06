@@ -30,11 +30,6 @@ The analytic solution to this problem is given by:
     - [`HeatEq_Bkwd(K, M, dt, u)`](#heateq_bkwdK-m-dt-u)
     - [`f_example(xi, dt)`](#f_examplexi-dt)
   - [Example Usage](#example-usage-1)
-  - [Requirements](#requirements)
-  - [Testing](#testing)
-  - [License](#license)
-  - [Acknowledgments](#acknowledgments)
-
 
 ## Proj1_pt1.py
 
