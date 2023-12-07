@@ -33,6 +33,9 @@ The analytic solution to this problem is given by:
 
 ## Proj2_Handwritten
 
+### Description  
+This image is the derived weak form of the above Heat Equation.
+
 ![Hand-written Weak Form](https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/File_000%20(4).png)
 
 ## Proj1_pt1.py
