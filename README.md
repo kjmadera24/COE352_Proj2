@@ -80,6 +80,13 @@ u_curr = u0
 
 ### Free Response Answers & Plots
 
+<p align="center">
+  <img src="[https://raw.githubusercontent.com/username/repository/branch/path/to/image1.png](https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.24.png)" alt="Image 1" width="200"/>
+  <img src="[https://raw.githubusercontent.com/username/repository/branch/path/to/image2.png](https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.024.png)" alt="Image 2" width="200"/>
+  <img src="[https://raw.githubusercontent.com/username/repository/branch/path/to/image3.png](https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.0024.png)" alt="Image 3" width="200"/>
+  <img src="[https://raw.githubusercontent.com/username/repository/branch/path/to/image4.png](https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.00024.png)" alt="Image 4" width="200"/>
+</p>
+
 1. **Question 1:** Increase the time-step until you find the instability, what dt does this occur at?
    *The staibility increases as dt increases and decreases as dt decreases, with this code I tried up to 1/24000000 for dt and I still didnt see much difference.*
 
