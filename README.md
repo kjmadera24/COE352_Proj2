@@ -75,7 +75,7 @@ u_curr = u0
 
 ### Free Response Answers & Plots  
 
-1. ** Plotting the Results:** * from T final going from 0.24 to 0.00024. *
+1. **Plotting the Results:** * from T final going from 0.24 to 0.00024. *
 <p float="left">
   <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.24.png" width="400"/>
   <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.024.png" width="400"/>
@@ -144,7 +144,7 @@ u_curr = u0
 
 ### Free Response Answers & Plots  
 
-** Plotting the Results: ** What happens as the time-step is equal to or greater than the spatial step size?  
+**Plotting the Results:** What happens as the time-step is equal to or greater than the spatial step size?  
 
 * When you make the time step equal to or greater than the spacial time step the plotting gets more accurate. This is opposite to the Forward Euler, in these plots you can see how stable the plots get going from being a dt of 0.001 to 10. *
 
