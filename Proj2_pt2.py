@@ -78,7 +78,7 @@ xr = 1
 T0 = 0
 Tf = 0.005
 # Time step
-dt = 0.01
+dt = 0.001
 # Initialize nodes
 nodes = np.linspace(xl, xr, N)
 # Set initial condition
