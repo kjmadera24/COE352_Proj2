@@ -3,13 +3,9 @@ This repository is for my COE352 project, which involves solving the heat equati
 
 # Heat Transfer Problem
 
-The heat transfer problem is described by the equation:
+The heat transfer problem is described by the equation: ` 𝑢_𝑡 ― 𝑢_𝑥𝑥 = 𝑓(𝑥,𝑡), (𝑥,𝑡) ∈ (0,1) 𝑥 (0,1) `
 
-` 𝑢_𝑡 ― 𝑢_𝑥𝑥 = 𝑓(𝑥,𝑡), (𝑥,𝑡) ∈ (0,1) 𝑥 (0,1) `
-
-The analytic solution to this problem is given by:
-
-` 𝑢(𝑥,𝑡) = 𝑒^(―𝑡) sin(𝜋𝑥) `
+The analytic solution to this problem is given by: ` 𝑢(𝑥,𝑡) = 𝑒^(―𝑡) sin(𝜋𝑥) `
 
 ## Table Of Contents
 - [Proj2_Handwritten](#proj2_handwritten)
