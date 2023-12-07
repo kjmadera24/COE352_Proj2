@@ -30,7 +30,7 @@ This image is the derived weak form of the above Heat Equation.
 
 ![Hand-written Weak Form](https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/File_000%20(4).png)
 
-## Proj1_pt1.py
+## Proj2_pt1.py
 
 ### Description
 This script implements a forward Euler time-stepping solution for the 1D heat equation using finite element methods. It utilizes Lagrange basis functions and performs numerical integration to assemble global matrices for the stiffness, mass, and load. The solution is then obtained by solving the heat equation with forward Euler.
@@ -75,6 +75,7 @@ u_curr = u0
 
 ### Free Response Answers & Plots  
 
+1. ** Plotting the Results:** * from T final going from 0.24 to 0.00024. *
 <p float="left">
   <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.24.png" width="400"/>
   <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.024.png" width="400"/>
@@ -82,7 +83,7 @@ u_curr = u0
   <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.00024.png" width="400"/>
 </p>
 
-1. **Question 1:** Increase the time-step until you find the instability, what dt does this occur at?  
+2. **Question 1:** Increase the time-step until you find the instability, what dt does this occur at?  
    *The staibility increases as dt increases and decreases as dt decreases, with this code I tried from 1/240 up to 1/24000000 for dt and I still didnt see much difference. I am sure with a stronger laptop I would eventually see the instability more.*  
 <p float="left">
   <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20dt_2400.png" width="400" width="400"/>
@@ -101,7 +102,7 @@ u_curr = u0
   <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20N_24.png" width="400"/>
 </p>
 
-## Proj1_pt2.py
+## Proj2_pt2.py
 
 ### Description
 This script implements a backward Euler time-stepping solution for the 1D heat equation using finite element methods. It utilizes Lagrange basis functions and performs numerical integration to assemble global matrices for the stiffness, mass, and load. The solution is then obtained by solving the heat equation with backward Euler.
@@ -143,10 +144,14 @@ u_curr = u0
 
 ### Free Response Answers & Plots  
 
+** Plotting the Results:** What happens as the time-step is equal to or greater than the spatial step size?  
+
+* When you make the time step equal to or greater than the spacial time step the plotting gets more accurate. This is opposite to the Forward Euler, in these plots you can see how stable the plots get going from being a dt of 0.001 to 10. *
+
 <p float="left">
-  <img src="" width="400"/>
-  <img src="" width="400"/>
-  <img src="" width="400"/>
-  <img src="" width="400"/>
+  <img src="https://github.com/kjmadera24/PictureFiles/blob/01b1bd6b463bb27569a5d9468d1bc4f56a162aa8/Pt2%20dt_0.001.png" width="400"/>
+  <img src="https://github.com/kjmadera24/PictureFiles/blob/01b1bd6b463bb27569a5d9468d1bc4f56a162aa8/Pt2%20dt_0.1.png" width="400"/>
+  <img src="https://github.com/kjmadera24/PictureFiles/blob/01b1bd6b463bb27569a5d9468d1bc4f56a162aa8/Pt2%20dt_1.png" width="400"/>
+  <img src="https://github.com/kjmadera24/PictureFiles/blob/01b1bd6b463bb27569a5d9468d1bc4f56a162aa8/Pt2%20dt_10.png" width="400"/>
 </p>
 
