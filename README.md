@@ -81,10 +81,10 @@ u_curr = u0
 ### Free Response Answers & Plots
 
 <p float="left">
-  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.24.png" width="200"/>
-  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.024.png" width="200"/>
-  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.0024.png" width="200"/>
-  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.00024.png" width="200"/>
+  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.24.png" width="250"/>
+  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.024.png" width="250"/>
+  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.0024.png" width="250"/>
+  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.00024.png" width="250"/>
 </p>
 
 1. **Question 1:** Increase the time-step until you find the instability, what dt does this occur at?
