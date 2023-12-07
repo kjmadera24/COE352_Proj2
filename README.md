@@ -5,11 +5,11 @@ This repository is for my COE352 project, which involves solving the heat equati
 
 The heat transfer problem is described by the equation:
 
-\[ u_t - u_{xx} = f(x, t), \quad (x, t) \in (0, 1) \times (0, 1) \]
+` 𝑢_𝑡 ― 𝑢_𝑥𝑥 = 𝑓(𝑥,𝑡), (𝑥,𝑡) ∈ (0,1) 𝑥 (0,1) `
 
 The analytic solution to this problem is given by:
 
-\[ u(x, t) = e^{-t}\sin(\pi x) \]
+` 𝑢(𝑥,𝑡) = 𝑒^(―𝑡) sin(𝜋𝑥) `
 
 ## Table Of Contents
 - [Proj2_Handwritten](#proj2_handwritten)
