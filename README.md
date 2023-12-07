@@ -12,16 +12,20 @@ The analytic solution to this problem is given by:
 \[ u(x, t) = e^{-t}\sin(\pi x) \]
 
 ## Table Of Contents
+- [Proj2_Handwritten](#proj2_handwritten)
+  - [Description](#description-2)
 - [Forward Euler Code](#proj1-pt1py)
   - [Description](#description)
   - [Usage](#usage)
   - [Functions](#functions)
   - [Example Usage](#example-usage)
+  - [Free Response Answers & Plots](#free-response-answers--plots)
 - [Backward Euler Code](#Proj1_pt2.py)
   - [Description](#description-1)
   - [Usage](#usage-1)
   - [Functions](#functions-1)
   - [Example Usage](#example-usage-1)
+  - [Free Response Answers & Plots](#free-response-answers--plots-1)
 
 ## Proj2_Handwritten
 
@@ -83,8 +87,8 @@ u_curr = u0
   <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.00024.png" width="400"/>
 </p>
 
-2. **Question 1:** Increase the time-step until you find the instability, what dt does this occur at?  
-   *The staibility increases as dt increases and decreases as dt decreases, with this code I tried from 1/240 up to 1/24000000 for dt and I still didnt see much difference. I am sure with a stronger laptop I would eventually see the instability more.*  
+2. **Question 1:** Increase the time-step until you find the instability, what dt does this occur at?
+*The staibility increases as dt increases and decreases as dt decreases, with this code I tried from 1/240 up to 1/24000000 for dt and I still didnt see much difference. I am sure with a stronger laptop I would eventually see the instability more.*  
 <p float="left">
   <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20dt_2400.png" width="400" width="400"/>
   <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20dt_2400.png" width="400"/>
@@ -93,7 +97,7 @@ u_curr = u0
 </p>
 
 3. **Question 2:** How does the solution change as N decreases?
-   *The plot gets more round the higher the N count. A way to think about it is that a square has 4 sides and is blocky, but a dodecahedron has 12 sides and looks more round.*  
+*The plot gets more round the higher the N count. A way to think about it is that a square has 4 sides and is blocky, but a dodecahedron has 12 sides and looks more round.*  
 
 <p float="left">
   <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20N_4.png" width="400"/>
