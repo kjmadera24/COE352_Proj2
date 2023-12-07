@@ -13,9 +13,9 @@ The analytic solution to this problem is given by:
 
 ## Table Of Contents
 - [Proj2_Handwritten](#proj2_handwritten)
-  - [Description](#description-2)
-- [Forward Euler Code](#proj1-pt1py)
   - [Description](#description)
+- [Forward Euler Code](#proj1-pt1py)
+  - [Description](#description-2)
   - [Usage](#usage)
   - [Functions](#functions)
   - [Example Usage](#example-usage)
