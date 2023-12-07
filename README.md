@@ -78,13 +78,13 @@ u0 = np.sin(np.pi * nodes)
 nt = int((Tf - T0) / dt)
 u_curr = u0
 
-### Free Response Answers & Plots
+### Free Response Answers & Plots  
 
 <p float="left">
-  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.24.png" width="225"/>
-  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.024.png" width="225"/>
-  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.0024.png" width="225"/>
-  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.00024.png" width="225"/>
+  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.24.png" width="400"/>
+  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.024.png" width="400"/>
+  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.0024.png" width="400"/>
+  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.00024.png" width="400"/>
 </p>
 
 1. **Question 1:** Increase the time-step until you find the instability, what dt does this occur at?
@@ -132,3 +132,13 @@ u0 = np.sin(np.pi * nodes)
 #### Time-stepping with backward Euler
 nt = int((Tf - T0) / dt)
 u_curr = u0
+
+### Free Response Answers & Plots  
+
+<p float="left">
+  <img src="" width="400"/>
+  <img src="" width="400"/>
+  <img src="" width="400"/>
+  <img src="" width="400"/>
+</p>
+
