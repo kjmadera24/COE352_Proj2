@@ -87,11 +87,24 @@ u_curr = u0
   <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20Tf_0.00024.png" width="400"/>
 </p>
 
-1. **Question 1:** Increase the time-step until you find the instability, what dt does this occur at?
-   *The staibility increases as dt increases and decreases as dt decreases, with this code I tried up to 1/24000000 for dt and I still didnt see much difference.*
+1. **Question 1:** Increase the time-step until you find the instability, what dt does this occur at?  
+   *The staibility increases as dt increases and decreases as dt decreases, with this code I tried from 1/240 up to 1/24000000 for dt and I still didnt see much difference. I am sure with a stronger laptop I would eventually see the instability more.*  
+<p float="left">
+  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20dt_2400.png" width="400" width="400"/>
+  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20dt_2400.png" width="400"/>
+  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20dt_24000.png" width="400"/>
+  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20dt_24000000.png" width="400"/>
+</p>
 
-2. **Question 2:** How does the solution change as N decreases?
-   *The plot gets more round the higher the N count. A way to think about it is that a square has 4 sides and is blocky, but a dodecahedron has 12 sides and looks more round.*
+3. **Question 2:** How does the solution change as N decreases?
+   *The plot gets more round the higher the N count. A way to think about it is that a square has 4 sides and is blocky, but a dodecahedron has 12 sides and looks more round.*  
+
+<p float="left">
+  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20N_4.png" width="400"/>
+  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20N_8.png" width="400"/>
+  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20N_11.png" width="400"/>
+  <img src="https://github.com/kjmadera24/PictureFiles/blob/aceba3751ed8050617254bec18c52b916b486a2e/Pt1%20N_24.png" width="400"/>
+</p>
 
 ## Proj1_pt2.py
 
