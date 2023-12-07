@@ -146,7 +146,7 @@ u_curr = u0
 
 **Plotting the Results:** What happens as the time-step is equal to or greater than the spatial step size?  
 
-* When you make the time step equal to or greater than the spacial time step the plotting gets more accurate. This is opposite to the Forward Euler, in these plots you can see how stable the plots get going from being a dt of 0.001 to 10. *
+*When you make the time step equal to or greater than the spacial time step the plotting gets more accurate. This is opposite to the Forward Euler, in these plots you can see how stable the plots get going from being a dt of 0.001 to 10.*
 
 <p float="left">
   <img src="https://github.com/kjmadera24/PictureFiles/blob/01b1bd6b463bb27569a5d9468d1bc4f56a162aa8/Pt2%20dt_0.001.png" width="400"/>
