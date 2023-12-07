@@ -17,7 +17,7 @@ The analytic solution to this problem is given by:
   - [Usage](#usage)
   - [Functions](#functions)
     - [`lagrange_basis(xi, nodes, i)`](#lagrange_basisxi-nodes-i)
-    - [`lagrange_basis_prime(xi, nodes, i)`](#lagrange_basis_primexi-nodes-i)
+    - [`lagrange_pbasis(xi, nodes, i)`](#lagrange_basis_primexi-nodes-i)
     - [`elmtl_mtrxs(N, nodes, f_func, xl, xr, dt)`](#elmtl_mtrxsN-nodes-f_func-xl-xr-dt)
     - [`HeatEq_Frwd(F, K, M, dt, u)`](#heateq_frwdF-k-m-dt-u)
     - [`user_func(xi, dt)`](#user_funcxi-dt)
