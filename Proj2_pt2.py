@@ -78,11 +78,14 @@ xr = 1
 T0 = 0
 Tf = 0.005
 # Time step
-dt = 1/551
+dt = 0.01
 # Initialize nodes
 nodes = np.linspace(xl, xr, N)
 # Set initial condition
 u0 = np.sin(np.pi * nodes)
+
+# Spatial step size
+dx = (xr - xl) / (N - 1)
 
 # Time-stepping with backward Euler
 nt = int((Tf - T0) / dt)
